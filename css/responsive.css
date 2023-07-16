@@ -4,7 +4,8 @@
     .container {
         max-width: 90vw;
     }
-    #nav {
+    #nav,
+    .team-wrapper{
         flex-direction: column;
     }
 
@@ -27,13 +28,23 @@
     #nav ul li a {
         font-size: 16px;
     }
+
+    .team-img {
+        grid-template-columns: 1fr;
+    }
+
 }
 
 @media screen and ( min-width: 576px ) and ( max-width: 768px ) {
-    #nav {
+    #nav{
         padding-top: 15px;
         flex-direction: column;
     }
+
+    .team-wrapper{
+        flex-direction: column;
+    }
+
     .banner-title {
         max-width: 100%;
     }
@@ -44,5 +55,8 @@
 @media screen and ( min-width: 768px ) and ( max-width: 992px ) {
     .banner-title {
         max-width: 80%;
+    }
+    .team-wrapper{
+        flex-direction: column;
     }
 }

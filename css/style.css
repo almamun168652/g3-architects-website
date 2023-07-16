@@ -34,6 +34,7 @@ body{
 
 #header{
     background: rgba(255, 144, 14, 0.10);
+    padding-bottom: 30px;
 }
 
 
@@ -83,4 +84,49 @@ body{
 
 #banner > img{
     width: 100%;
+}
+
+/* team */
+
+#team{
+    margin-top: 50px;
+}
+
+.team-wrapper{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 20px;
+}
+
+.team-img img{
+    max-width: 250px;
+}
+
+.team-content h2{
+    color: #727272;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.of-our-title{
+    color: #131313;
+    font-weight: 600;
+}
+
+.feature-title-text{
+    color:#FF900E;
+    font-weight: 600;
+}
+
+.team-para{
+    margin-bottom: 10px;
 }
